@@ -1,15 +1,12 @@
-import React, { Component } from "react";
-import ImageGallery from './ImageGallery/ImageGallery'
+import React from "react";
+import ImageGallery from './ImageGallery/ImageGallery';
 
-class App extends Component {
-  render() {
-  
-    return (
-      <div className="App">
-        <ImageGallery />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <ImageGallery />
+    </div>
+  );
 }
 
 export default App;
